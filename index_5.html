@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>무제 문서</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style_5.css">
+	<link rel="stylesheet" href="css/style_5_mobile.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="images/bentley_favicon.ico" type="images/bentley_favicon.ico"/>
+<link rel="shortcut icon" href="images/bentley_favicon.ico">
+	<meta name="keywords" content="bentley site">
+	<meta name="description" content="이 사이트는 벤틀리 사이트입니다.">
+	<meta name="author"	content="벤틀리홍보사이트, 2021년6월에 제작, 개발지 _윤수호,한국">
+	<meta name="robots" content="index,follow" />
+</head>
+
+<body>
+	<div class="index_5_container">
+		<header class="logo">
+			<a href="index.html"><img src="images/bentley_logo.png"></a>
+		</header>
+		<hr>
+		<div class="login_main">
+			<fieldset>
+			<legend><li><a>이메일 로그인</a></li></legend>
+				<label for="login"></label>
+				<input placeholder="이메일 주소" type="text" id="login" name="login">
+				<label for="pwd"></label>
+				<input placeholder="비밀번호" type="password" id="pwd" name="pwd">
+				<label for="login_button"></label>
+				<input type="submit" id="login_button" value="로그인">
+			</fieldset>
+			<div class="tabmenu">
+			<input type="radio" id="find_id" name="tabmenu">
+				<label for="find_id">아이디찾기</label>
+				<input type="radio" id="find_pwd" name="tabmenu">
+				<label for="find_pwd">회원가입</label>
+					<div class="con con1">
+						<li>이메일 아이디를 찾으시려면 휴대폰 인증 또는<br>&nbsp;&nbsp;&nbsp;&nbsp; 이메일 인증을 선택하세요</li>
+						<input type="submit" id="phone_root" value="휴대폰 인증">
+						<label for="phone_root"></label>
+						<input type="submit" id="email_root" value="이메일 인증">
+						<label for="email_root"></label>
+					</div>
+					<div class="con con2">
+						<li>회원가입을 원하시면 다음 약관을 읽고 동의 해주세요.</li>
+						<textarea cols="50" rows="5" readonly>통합 계정 이용 약관
+본 약관은 벤틀리 주식회사가 제공하는 서비스를 이용하기 위하여 개인정보 수집을 동의 합니다.
+						</textarea>
+						<label for="terms_agree">
+							<input type="checkbox" id="terms_agree" name="agree" value="동의합니다" class="chkbox">동의합니다.</label>
+						
+						<textarea cols="50" rows="5" readonly>통합 계정 이용 약관
+본 약관은 벤틀리 주식회사가 제공하는 서비스를 이용하기 위하여 개인정보 수집을 동의 합니다.
+						</textarea>
+						
+						<label for="terms_agree2"><input type="checkbox" id="terms_agree2" name="agree" value="동의합니다" class="chkbox">동의합니다.</label>
+						<label for="terms_agree3"><input type="checkbox" id="terms_agree3" value="동의합니다">모두 동의 하기</label>
+						<input type="submit" id="next_button" value="다음">
+						<label for="next_button"></label>
+					</div>
+				</div>
+			<hr>
+		</div>
+		</div>
+	<script src="js/style_5.js"></script>
+</body>
+</html>

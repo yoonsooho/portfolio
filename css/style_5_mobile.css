@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+@media (min-width:320px) and (max-width:576px)
+{
+	.index_5_container
+{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.logo
+{
+	width:25%;
+	height: auto;
+	margin-left: 38%;
+	margin-top: 1%;
+}
+.logo  img
+{
+	width: 100%;
+	height: 100%;
+}
+hr
+{
+	border-bottom: 1px solid #ccc;
+}
+
+fieldset
+{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+legend  li
+{
+	list-style:disc;
+	padding: 10px 5px;
+	opacity: 0.6;
+}
+legend 	li a
+{
+	font-size: 15px;
+	margin-left: -10%;
+}
+
+#login,
+#pwd
+{
+	border: 1px solid #ccc;
+	padding: 10px 10px;
+	border-radius: 5px 0 0 5px;
+  	color: black;
+	font-size: 14px;
+	width: 95%;
+}
+
+#pwd
+{
+	margin-top: 2%;
+}
+input[type=text]::placeholder,
+input[type=password]::placeholder
+{
+  	color: black;
+	opacity: 0.5;
+}
+fieldset > input[type=submit]
+{
+	width: 100.5%;
+	color: white;
+	background-color: black;
+	padding: 10px 10px;
+	margin: 5px 0px;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+input[type="radio"]
+{
+	display: none;
+}
+input[type="radio"] + label
+{
+	background-color: black;
+	padding: 10px 20px;
+	text-align: center;
+	width: 120px;
+	color: white;
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+	cursor: pointer;
+	margin-bottom: 3%;
+}
+input[type="radio"]:first-child + label
+{
+	margin-left: 0%;
+}
+input[type="radio"]:checked + label
+		{
+			background: #aaa;
+			color: #000;
+		}
+.con
+{
+	width: 100%;
+	height: 500px;
+	border: 1px solid #ccc;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+	display: none;
+	text-align: center;
+	padding: 2%;
+	position: relative;
+}
+input[id="find_id"]:checked~ .con1{display: inline-block;}
+input[id="find_pwd"]:checked ~.con2{display: inline-block;}
+
+.tabmenu
+{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.con1 > li
+{
+	list-style: circle;
+	font-size: 14px;
+	text-align: left;
+	line-height: 1.5;
+}
+.con1 > input[type=submit]
+{
+	width: 90%;
+	color: white;
+	background-color: black;
+	padding: 10px 10px;
+	margin: 5px 0px;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: 3%;
+}
+
+.con2 > li
+{
+	list-style: circle;
+	font-size: 14px;
+}
+.con2 > textarea
+{
+	border: 1px solid #ccc;
+	margin-top: 3%;
+	text-align: left;
+	color: black;
+	font-size: 14px;
+	resize: none;
+}
+.con2  input[type=checkbox]
+{
+	display: block;
+	width: 30px;
+	margin-top: 2px;
+	float: right;
+	border: 5px solid red;
+}
+.con2 label 
+{
+	float: right;
+}
+ #terms_agree3 +label
+{
+	position: absolute;
+	right: 52%;
+	top: 62%;
+}
+#terms_agree2 + label
+{
+	right: 2%;
+}
+}
+

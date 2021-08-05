@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+.index_3_container
+{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 110vh;
+	position: relative;
+	background: rgb(233, 234, 241);
+}
+.index_3_container::after
+{
+	content: "";
+	display: block;
+	clear: both;
+}
+.background
+{
+	width: 70%;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../images/index_3photo/background.PNG) repeat-x;
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid #ccc;
+}
+.background_img
+{
+	width: 40%;
+	margin-top: 3%;
+}
+.background_img img
+{
+	width: 90%;
+	height: 90%;
+}
+.background_text
+{
+	width: 40%;
+	margin-top: 3%;
+}
+.background_text h1
+{
+	font-size: 24px;
+	border-bottom: 1px solid #ccc;
+	margin-left: 10px;
+}
+.background_text ul
+{
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	width: 100%;
+	height: 70%;
+	margin-top: 3%;
+}
+.background_text ul li
+{
+	width: 45%;
+	height: 30%;
+	text-align: left;
+	font-size: 19px;
+	line-height: 10px;
+	font-family: AppleSDGothicNeoSB;
+	color: #757578;
+}
+.background_text ul li span
+{
+	float: right;
+}
+div.notice_text
+{
+	width: 100%;
+	height: 90%;
+	position: relative;
+	top: 44.5px;
+	background: rgb(233, 234, 241);
+	display: flex;
+	justify-content: flex-start;
+	flex-flow: row wrap;
+	padding: 20px;
+}
+div.notice_text li
+{
+	width: 32.0%;
+	height: 40px;
+	line-height: 180%;
+	margin-left: 10px;
+	font-size: 17px;
+	text-align: center;
+	font-family: malgum;
+	color:rgba(0,0,0,0.8);
+	border-bottom: 3px solid #ccc;
+}
+div.notice_text li span
+{
+	float: right;
+	text-align: center;
+	width: 50%;
+	height: 40px;
+	color:rgba(0,0,0,0.5);
+	vertical-align: top;
+	display: block;
+}
+
+input[type="radio"]
+		{
+			display: none;
+		}
+		input[type="radio"] + label
+		{
+			display: inline-block;
+			padding: 20px;
+			background: #ccc;
+			color: #999;
+			font-size: 14px;
+			cursor: pointer;
+		}
+		input[type="radio"]:checked + label
+		{
+			background: #aaa;
+			color: #000;
+			
+		}
+		.conbox
+		{
+	width: 100%;
+	height: 700px;
+	position: relative;
+			display: none;
+			font-family: malgum;
+			border: 3px solid #ccc;
+		}
+		
+		input[id="tab01"]:checked ~ .con1{display: flex;}
+		input[id="tab02"]:checked ~ .con2{display: block;}
+
+.tab_content
+{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+/*=============================swipe=============================*/
+
+
+.con2 {
+        position: absolute;
+	width: 70%;
+        height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+      }
+
+    .con2 {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper-container {
+        width: 50%;
+        height: 50%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box flex;
+        display: -ms-flexbox flex;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+
+ 
+
+      .swiper-container {
+        width: 50%;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .swiper-slide {
+        background-size: cover;
+        background-position: center;
+      }
+
+      .mySwiper2 {
+        height: 100%;
+        width: 100%;
+      }
+
+      .mySwiper {
+        height: 20%;
+        box-sizing: border-box;
+        padding: 10px 0;
+      }
+
+      .mySwiper .swiper-slide {
+        width: 25%;
+        height: 100%;
+        opacity: 0.4;
+      }
+
+      .mySwiper .swiper-slide-thumb-active {
+        opacity: 1;
+      }
+
+.swipe_topbox {
+	position: relative;
+	width: 100%;
+	height: 0px;
+	top: 0px;
+}
+
+

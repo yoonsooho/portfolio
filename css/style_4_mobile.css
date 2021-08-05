@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+@media (min-width:320px) and (max-width:576px)
+{
+	
+	/*map*/
+	.kakaotext
+	{
+		display: none;
+	}
+	.map
+	{
+		width: 50%;
+		height: 50%;
+		margin-left: 10%;
+		margin-top: 10%;
+	}
+	
+	
+	.drive_imgbox
+{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+.text_box
+{
+	position: relative;
+	top: 10%;
+	color: white;
+	font-family: NotoSansKR-Regular;
+	display: flex;
+	flex-flow: column wrap;
+	height: 80vh;
+}
+.text_box article
+{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.text_box article span
+{
+	display: block;
+	font-size: 40px;
+	text-align: center;
+	line-height: 180%;
+}
+.text_box article h1
+{
+	display: block;
+	font-size: 13px;
+	width: 71%;
+	line-height:180%;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.5);
+}
+.text_box article h1:hover
+{
+	box-shadow: inset 0px 0px 0px 0px black;
+	transition: all 0s ease-in-out ;
+}
+/*각구역 박스들*/
+.drive_imgbox_a
+{
+	background: url(../images/driveimg/driveimg1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.drive_imgbox_b
+{
+	background: url(../images/driveimg/driveimg2.bmp);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.drive_imgbox_c
+{
+	background: url(../images/driveimg/driveimg3.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.drive_imgbox_d
+{
+	background: url(../images/driveimg/driveimg4.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.drive_imgbox_e
+{
+	background: url(../images/driveimg/driveimg5.bmp);
+	background-size: cover;
+	background-attachment: fixed;
+}
+}
